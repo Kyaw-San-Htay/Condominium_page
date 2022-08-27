@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#navbar {
+    background-color: #110F6A;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+#navbar a {
+    color: white;
+    font-size: 18px;
+}
+#navbar a:hover {
+    border-bottom: 1px solid white;
+}
+#navbar button {
+    background-color: white;
+}
+.carousel {
+    height: 140vh;
+}
+#carousel_part .carousel-inner .carousel-item h5{
+    color: #110F6A;
+    font-size: 60px;
+    text-shadow: 3px 3px 4px grey;
+}
+#carousel_part .carousel-inner .carousel-item p{
+    color: #110F6A;
+    font-size: 18px;
+    text-shadow: 3px 3px 4px grey;
+}
+#carousel_part .carousel-inner .carousel-item img{
+    opacity: 0.5;
+}
+#carousel_part .carousel-inner .carousel-item .carousel-caption{
+    margin-bottom: 30%;
+}
+.btn-carousel {
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    color: white;
+    background-color: #110F6A;
+    margin-top: 20px;
+    border: none;
+    font-weight: bold;
+}
+#about-us {
+    padding: 50px;
+}
+#about-us h2 {
+    text-align: center;
+}
+#about-us p {
+    padding-top: 18px;
+    text-align: center;
+}
+#type {
+    background-color: #efefef;
+}
+.card {
+    padding: 0;
+    margin: 20px;
+}
+.card-img-top {
+    height: 180px;
+}
+.card-title {
+    text-align: center;
+}
+.cards-title {
+    color:#110F6A;
+    font-weight: bold;
+    font-size: 40px;
+}
+.btn-card {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 110px;
+    text-align: center;
+    background-color: #110F6A;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#profile .round {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.user {
+    border-left: 5px solid #110F6A;
+    margin: 54px;
+}
+.footer {
+    background-color: #110F6A;
+    color: white;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+}

@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" data-aos="fade-right">ArooM</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" data-aos="fade-left">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Type
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Room</a></li>
+                  <li><a class="dropdown-item" href="#">Apartment</a></li>
+                  <li><a class="dropdown-item" href="#">Dorm</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Condominium</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <div id="carousel_part" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="cover_one.jpg" class="d-block w-100 h-20" alt="...">
+            <div class="carousel-caption" data-aos="zoom-in">
+              <h5>First Type</h5>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam culpa nesciunt cum ad consequuntur recusandae, unde hic similique esse, deserunt ipsa excepturi adipisci officia nam, ipsum iusto minima optio repellendus.</p>
+              <button class="btn-carousel">M E N U</button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="cover_two.jpg" class="d-block w-100 h-20" alt="...">
+            <div class="carousel-caption" data-aos="zoom-in">
+              <h5>Second Type</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ullam quaerat quia consequatur. Necessitatibus in expedita pariatur optio laudantium tempore vero quam unde adipisci sint ab, maxime quod laboriosam qui.</p>
+              <button class="btn-carousel">M E N U</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="cover_three.jpg" class="d-block w-100 h-20" alt="...">
+            <div class="carousel-caption" data-aos="zoom-in">
+              <h5>Third Type</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur blanditiis asperiores natus molestias maiores vitae, ea veritatis quam amet nihil, aliquid explicabo similique provident, excepturi libero reprehenderit unde magnam quo.</p>
+              <button class="btn-carousel">M E N U</button> 
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel_part" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel_part" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+<!--Start About Us-->
+    <div class="container" id="about-us">
+      <div class="row">
+        <div class="col-md-6" data-aos="fade-right">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus at corrupti perspiciatis possimus labore modi reiciendis nihil pariatur et saepe, officiis magnam? Consequuntur aperiam voluptatibus itaque eum. Praesentium, accusamus repellendus.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum quia, possimus libero magnam quam iusto expedita quae, atque odit alias eveniet blanditiis vero! Officia maiores est alias ipsum, consectetur fugiat.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem est reprehenderit placeat aliquid cumque quaerat minima id consectetur dolore, reiciendis itaque necessitatibus velit ex? Eaque nostrum labore ipsa voluptatibus ullam.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus possimus vero, velit veritatis blanditiis totam rerum quo consequuntur adipisci dolor, sunt laboriosam sapiente id neque voluptas sed! Impedit, soluta quam.
+          </p>
+        </div>
+        <div class="col-md-6" data-aos="flip-right">
+          <img src="card5.jpg" class="img-fluid w-100" alt="">
+        </div>
+      </div>
+    </div>
+<!--End About Us-->
+
+<!--Start Type-->
+<section id="type">
+  <div class="container">
+    <h2 class="cards-title text-center pt-5" data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom">Room Types</h2>
+    <div class="row justify-content-center">
+      <!--start card-->
+      <div class="card col-md-3" data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-sine">
+        <img src="card1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Room A</h5>
+          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn-card">Rent</a>
+        </div>
+      </div>
+      <div class="card col-md-3" data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-sine">
+        <img src="card2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Room B</h5>
+          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn-card">Rent</a>
+        </div>
+      </div>
+      <div class="card col-md-3" data-aos="fade-right"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-sine">
+        <img src="card3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Room C</h5>
+          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn-card">Rent</a>
+        </div>
+      </div>
+      <div class="card col-md-3" data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-sine">
+        <img src="card4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Room D</h5>
+          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn-card">Rent</a>
+        </div>
+      </div>
+      <div class="card col-md-3" data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-sine">
+        <img src="card5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Room E</h5>
+          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn-card">Rent</a>
+        </div>
+      </div>
+      <div class="card col-md-3" data-aos="fade-left"
+      data-aos-offset="200"
+      data-aos-easing="ease-in-sine">
+        <img src="card3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Room F</h5>
+          <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn-card">Rent</a>
+        </div>
+      </div>
+      <!--end card-->
+
+    </div> 
+  </div>
+</section>
+<!--End Type-->
+
+<!--Start Profile-->
+<section id="profile">
+  <div class="container">
+    <h2 class="cards-title text-center pt-5" data-aos="flip-right">Coordinators</h2>
+    <div class="row">
+      <div class="col-md-3 text-center user" data-aos="zoom-in-right">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis pariatur necessitatibus architecto dicta cum sapiente? Quod quis veniam sapiente libero placeat consectetur.
+        </p>
+        <img src="profile1.jpg"  class="round" alt="">
+        <br>
+        <span>By Stephan</span>
+      </div>
+      <div class="col-md-3 text-center user" data-aos="zoom-out-up">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis pariatur necessitatibus architecto dicta cum sapiente? Quod quis veniam sapiente libero placeat consectetur.
+        </p>
+        <img src="profile3.jpg"  class="round" alt="">
+        <br>
+        <span>By Johnatan</span>
+      </div>
+      <div class="col-md-3 text-center user" data-aos="zoom-in-left">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis pariatur necessitatibus architecto dicta cum sapiente? Quod quis veniam sapiente libero placeat consectetur.
+        </p>
+        <img src="profile2.jpg"  class="round" alt="">
+        <br>
+        <span>By David</span>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!--End Profile-->
+
+<!--Start Footer-->
+<div class="footer">
+  <p>Design & Developed By Lazy Stephan</p>
+</div>
+<!--End Footer-->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+      AOS.init({
+        duration: 2000,
+      });
+    </script>
+
+  </body>
+</html>
